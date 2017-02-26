@@ -25,7 +25,7 @@ html {
   // `rem` based on the `font-size` of html
   font-size: $size-base;
   // Changes the default tap highlight in iOS.
-  -webkit-tap-highlight-color: $color-background-over;
+  -webkit-tap-highlight-color: $color-background-faded;
   // Prevent adjustments of font size after orientation changes in IE and iOS.
   text-size-adjust: 100%;
 }
@@ -103,23 +103,22 @@ dt {
 code,
 kbd,
 samp {
-  background-color: $color-background-over;
+  background-color: $color-background-faded;
   font-family: $font-family-monospace;
   font-size: $font-size-small;
   padding: $padding-code;
 }
 
 pre {
-  // Mobile device has a small height, so we need to enable scroll-view
-  @include scroll-view();
-
-  background-color: $color-background-over;
+  background-color: $color-background-faded;
   font-family: $font-family-monospace;
   font-size: $font-size-pre;
   line-height: $line-height-pre;
   // Mobile device has a small height, so we need to set the width of pre to the device width
   margin-left: -$width-gap;
   margin-right: -$width-gap;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
   padding: $width-gap;
 
   // Override the code styles
