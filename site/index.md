@@ -1,5 +1,7 @@
 # Reset
 
+Here are the example of common elements.
+
 ## Headings
 
 # h1. Mobi.css
