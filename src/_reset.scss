@@ -114,9 +114,6 @@ pre {
   font-family: $font-family-monospace;
   font-size: $font-size-pre;
   line-height: $line-height-pre;
-  // Mobile device has a small height, so we need to set the width of pre to the device width
-  margin-left: -$width-gap;
-  margin-right: -$width-gap;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   padding: $width-gap;
@@ -126,11 +123,6 @@ pre {
     background-color: transparent;
     font-size: $font-size-pre;
     padding: 0;
-  }
-
-  @media (min-width: $max-width-container - $width-gap-double) {
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 
@@ -219,7 +211,7 @@ img {
 
 audio,
 video {
-  width: 100%;
+  max-width: 100%;
 }
 
 figcaption {
@@ -307,5 +299,5 @@ option {
 }
 
 progress {
-  width: 100%;
+  max-width: 100%;
 }
