@@ -74,13 +74,11 @@ gulp.task('clean:dist', () => {
 
 gulp.task('build:css', (callback) => {
   gulp.src(`${SRC_DIR}/${pkg.name}.scss`)
-    .pipe(sourcemaps.init())
     .pipe(sass({
       includePaths: 'node_modules',
     }).on('error', sass.logError))
     .pipe(postcss(postcssConfig))
-    .pipe(insert.prepend(`/* ${pkg.name} v${pkg.version} ${pkg.homepage} */\n`))
-    .pipe(sourcemaps.write('./'))
+    .pipe(insert.prepend(`/*!\n * ${pkg.name} v${pkg.version}\n * ${pkg.homepage}\n */\n\n`))
     .pipe(gulp.dest(DIST_DIR))
     .on('end', callback);
 });
@@ -89,7 +87,6 @@ gulp.task('build:css:min', (callback) => {
   gulp.src(`${DIST_DIR}/${pkg.name}.css`)
     .pipe(sourcemaps.init())
     .pipe(cleanCSS())
-    .pipe(insert.prepend(`/* ${pkg.name} v${pkg.version} ${pkg.homepage} */\n`))
     .pipe(rename(`${pkg.name}.min.css`))
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest(DIST_DIR))

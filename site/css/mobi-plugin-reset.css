@@ -1,4 +1,8 @@
-/* mobi-plugin-reset v0.1.2 https://mobi-css.github.io/mobi-plugin-reset/ */
+/*!
+ * mobi-plugin-reset v0.1.2
+ * https://mobi-css.github.io/mobi-plugin-reset/
+ */
+
 @charset "UTF-8";
 html {
   box-sizing: border-box; }
@@ -232,5 +236,3 @@ option {
 
 progress {
   max-width: 100%; }
-
-/*# sourceMappingURL=mobi-plugin-reset.css.map */
