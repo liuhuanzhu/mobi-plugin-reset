@@ -16,14 +16,14 @@ Here are the example of common elements.
 - Unordered List
 - Unordered List
 - Nesting
-  - Sub Unordered List
-  - Sub Unordered List
+    - Sub Unordered List
+    - Sub Unordered List
 
 1. Ordered List
 2. Ordered List
 3. Nesting
-  1. Sub Ordered List
-  2. Sub Ordered List
+    1. Sub Ordered List
+    2. Sub Ordered List
 
 <dl>
   <dt>Coffee</dt>
