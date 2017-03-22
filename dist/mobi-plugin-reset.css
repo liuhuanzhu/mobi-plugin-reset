@@ -24,7 +24,7 @@ body {
   background-color: white;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", Arial, Helvetica, STHeiti, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.5;
   margin: 0; }
 
@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 24px 0 0; }
+  margin: 2.4rem 0 0; }
 
 p,
 blockquote,
@@ -46,7 +46,7 @@ ol,
 pre,
 address,
 figure {
-  margin: 12px 0 0; }
+  margin: 1.2rem 0 0; }
 
 h1,
 h2,
@@ -57,22 +57,22 @@ h6 {
   font-weight: 600; }
 
 h1 {
-  font-size: 32px; }
+  font-size: 3.2rem; }
 
 h2 {
-  font-size: 26px; }
+  font-size: 2.6rem; }
 
 h3 {
-  font-size: 22px; }
+  font-size: 2.2rem; }
 
 h4 {
-  font-size: 20px; }
+  font-size: 2rem; }
 
 h5 {
-  font-size: 18px; }
+  font-size: 1.8rem; }
 
 h6 {
-  font-size: 16px; }
+  font-size: 1.6rem; }
 
 a {
   color: #2680d9;
@@ -97,24 +97,24 @@ samp {
 pre {
   background-color: rgba(51, 51, 51, 0.05);
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 13px;
+  font-size: 1.3rem;
   line-height: 1.2;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
-  padding: 12px; }
+  padding: 1.2rem; }
   pre code {
     background-color: transparent;
-    font-size: 13px;
+    font-size: 1.3rem;
     padding: 0; }
 
 blockquote {
   border-left: 5px solid #ddd;
   color: #777;
-  padding-left: 12px; }
+  padding-left: 1.2rem; }
 
 ul,
 ol {
-  padding-left: 24px; }
+  padding-left: 2.4rem; }
 
 dt,
 dd,
@@ -220,8 +220,8 @@ html [type=button],
 
 fieldset {
   border: 1px solid #ddd;
-  margin: 12px 0 0;
-  padding: 0 12px 12px; }
+  margin: 1.2rem 0 0;
+  padding: 0 1.2rem 1.2rem; }
 
 legend {
   padding: 0 0.2em; }
