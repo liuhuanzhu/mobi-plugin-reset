@@ -83,7 +83,7 @@ h5 { font-size: $font-size-h5; }
 h6 { font-size: $font-size-h6; }
 
 a {
-  color: $color-text-primary;
+  color: $color-primary;
   text-decoration: none;
   // Remove gaps in links underline in iOS 8+ and Safari 8+.
   -webkit-text-decoration-skip: objects;
@@ -178,7 +178,7 @@ time {
 }
 
 mark {
-  background-color: $color-background-mark;
+  background-color: yellow;
   color: $color-text;
   padding: 0 0.2em;
 }
