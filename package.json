@@ -1,6 +1,6 @@
 {
   "name": "mobi-plugin-reset",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Reset styles makes browsers render all elements more consistently.",
   "main": "index.scss",
   "scripts": {
